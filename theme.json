@@ -1,0 +1,8 @@
+{
+    "title": "Second Theme",
+    "folder" : "second_theme",
+    "assets" : "assets",
+    "description" : "This is new theme",
+    "image": "",
+    "dependencies" : []
+}
