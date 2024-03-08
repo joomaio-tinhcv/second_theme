@@ -1,12 +1,11 @@
 <?php defined('APP_PATH') or die('');
 $this->theme->prepareAssets([
     'jquery',
-    'bootstrap-css',
-    'fontawesome-css',
-    'admin-css',
+    'materialize-css',
     'style-css',
-    // 'js-bootstrap',
-    'js-backend',
+    'materialize-js',
+    'fontawesome-css',
+    'jquery',
 ]);
 $content = $this->render($this->mainLayout);
 ?>
@@ -16,7 +15,7 @@ $content = $this->render($this->mainLayout);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pnote</title>
+    <title>Materialize Theme</title>
 
     <?php $this->theme->echo('css', $this->url()) ?>
     <?php $this->theme->echo('topJs', $this->url()) ?>
