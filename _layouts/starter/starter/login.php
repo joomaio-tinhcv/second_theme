@@ -1,38 +1,28 @@
-<main class="d-flex w-100 h-100 pt-5">
-    <div class="container d-flex flex-column">
-        <div class="row vh-100">
-            <div class="col-sm-10 col-lg-4 mx-auto d-table h-100">
-                <div class="d-table-cell">
-                    <div class="card rounder-0">
-                        <div class="card-body">
-                            <div class="m-sm-3">
-                                <form action="<?php echo $this->link_login;?>" method="POST">
-                                    <div class="text-center mt-4">
-                                        <h1 class="h2">Starter</h1>
-                                        <p class="lead">
-                                            Sign in to starter account to continue
-                                        </p>
-                                    </div>
-                                    <div class="d-flex justify-content-center mb-2">
-                                        <hr width="75% ">
-                                    </div>
-                                    <?php echo $this->renderWidget('core::message'); ?>
-                                    <div class="mb-4">
-                                        <label class="form-label fw-bold">User Name</label>
-                                        <input class="form-control form-control-lg" required type="text" name="username" placeholder="User Name">
-                                    </div>
-                                    <div class="mb-4">
-                                        <label class="form-label fw-bold">Password</label>
-                                        <input class="form-control form-control-lg" required type="password" name="password" placeholder="Password">
-                                    </div>
-                                    <div class="mb-3 text-center">
-                                        <input type="submit" value="Sign in" class="btn btn-lg btn-primary form-control form-control-lg border-0">
-                                    </div>
-                                </form>
+<main>
+    <div class="container mt5">
+        <div class="row">
+            <div class="col s8 offset-s2">
+                <div class="card card-login">
+                    <div class="card-content">
+                        <span class="card-title">Starter</span>
+                        <p>Sign in to starter account to continue</p>
+                        <?php echo $this->renderWidget('core::message'); ?>
+                        <form action="<?php echo $this->link_login; ?>" method="POST">
+                            <div class="input-field">
+                                <input id="username" name="username" type="text" required class="validate">
+                                <label for="username" class="">Username</label>
                             </div>
-                        </div>
+                            <div class="input-field">
+                                <input id="password" name="password" type="password" required class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                            <br><br>
+                            <div>
+                                <input class="btn right" type="submit" value="Log In">
+                                <a href="#!" class="btn-flat"></a>
+                            </div>
+                        </form>
                     </div>
-
                 </div>
             </div>
         </div>
