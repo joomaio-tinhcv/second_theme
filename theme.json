@@ -1,8 +1,8 @@
 {
-    "title": "Second Theme",
-    "folder" : "second_theme",
+    "title": "Materialize Theme",
+    "folder" : "materialize",
     "assets" : "assets",
-    "description" : "This is new theme",
+    "description" : "This is theme using materialize framework.",
     "image": "",
     "dependencies" : []
 }
