@@ -134,6 +134,6 @@ label.form-label{
 .modal-header-sticky{
     position: sticky;
     top: 0px;
-    padding: 24px 24 10px 24px;
+    padding: 24px 24px 10px 24px;
     background: #fafafa;
 }
