@@ -4,7 +4,7 @@
             <div class="col s8 offset-s2">
                 <div class="card card-login">
                     <div class="card-content">
-                        <span class="card-title">Starter</span>
+                        <span class="card-title center-align">Starter</span>
                         <p>Sign in to starter account to continue</p>
                         <?php echo $this->renderWidget('core::message'); ?>
                         <form action="<?php echo $this->link_login; ?>" method="POST">

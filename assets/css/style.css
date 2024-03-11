@@ -1,0 +1,139 @@
+.mt4{
+    margin-top: 1.5rem !important;
+}
+
+.m0{
+    margin: 0 !important;
+}
+
+.mt3{
+    margin-top: 1rem !important;
+}
+
+.mt5{
+    margin-top: 3rem !important;
+}
+
+.mt2{
+    margin-top: 0.5rem !important;
+}
+
+.me2{
+    margin-right: 0.5rem !important;
+}
+
+.me3{
+    margin-right: 1rem !important;
+}
+
+.mt1{
+    margin-top: 0.25rem !important;
+}
+
+.tabs .tab a:focus, .tabs .tab a.active {
+    background-color: rgba(246, 178, 181, 0.2);
+    outline: none;
+}
+
+.d-flex{
+    display: flex !important;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.h-100{
+    height: 100% !important;
+}
+
+input.form-control[type=text]:not(.browser-default){
+    margin-bottom: 0;
+}
+
+.pe-2{
+    padding-right: 1rem;
+}
+
+.align-items-end
+{
+    align-items: end;
+}
+
+.align-items-center
+{
+    align-items: center;
+}
+
+.mb0{
+    margin-bottom: 0 !important;
+}
+
+.justify-content-center{
+    justify-content: center !important;
+}
+
+.justify-content-end{
+    justify-content: end !important;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.mb-2{
+    margin-bottom: 1rem;
+}
+
+.plugin-item{
+    align-items: center;
+}
+
+.card .card-content .card-title{
+    margin-top: 0;
+}
+
+.btn.btn-secondary{
+    background-color: #6c757d;
+    color: #fff;
+}
+
+label.form-label{
+    font-size: 1rem;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.mx-4{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.modal h4{
+    font-size: 1.28rem;
+}
+
+.modal-header-sticky{
+    position: sticky;
+    top: 0px;
+    padding: 24px 24 10px 24px;
+    background: #fafafa;
+}
